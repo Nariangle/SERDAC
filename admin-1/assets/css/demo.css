@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url("../../../assets/fonts/RobotoCondensed-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'Roboto Condensed Bold';
+  src: url("../fonts/RobotoCondensed-Bold.ttf");
+} 
+
+@font-face {
+  font-family: 'Roboto Condensed Italic';
+  src: url("../fonts/RobotoCondensed-Italic.ttf");
+} 
+
+body {
+  font-family: "Roboto Condensed";
+}
+.menu .app-brand.demo {
+  height: 64px;
+  margin-top: 12px;
+}
+
+.app-brand-logo.demo svg {
+  width: 22px;
+  height: 38px;
+}
+
+.app-brand-text.demo {
+  font-size: 1.75rem;
+  letter-spacing: -0.5px;
+  text-transform: lowercase;
+}
+
+
